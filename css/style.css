@@ -1,17 +1,29 @@
 footer {
-  border: 1px solid black;
   background: #1f1f14;
   color: #ffff;
   font-family: 'Raleway', sans-serif;
   text-align: center;
+  margin-top: 80px;
 }
+
+footer p {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+}
+
  .grande img {
    float: right;
    height: 70px;
    padding:  5px 5px;
    margin-right: 150px;
    width: 70px;
- }
+}
+
+header:first-child {
+  margin-left: 150px;
+  position: relative;
+}
 
 .grande ul {
   display: inline-block;
@@ -21,11 +33,6 @@ footer {
   text-transform: uppercase;
   padding: 10px 0px;
   margin: 20px;
-}
-
-header:first-child {
-  margin-left: 150px;
-
 }
 
 .grande ul:hover {
@@ -135,15 +142,14 @@ header:first-child {
   float: left;
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
-  font-weight: bold;
   margin-left: 160px;
   text-align: center;
   text-transform: capitalize;
 }
 
-.listauno ul {
+.listauno ol {
   text-align: center;
-  padding:
+
 }
 
 .lastpart {
@@ -181,11 +187,64 @@ header:first-child {
   margin-right: 200px;
 }
 
-.work img {
+.cuadro {
+  width: 270px;
+  height:250px;
+  margin: 50px 40px 0px 130px;
+  background: red;
   display: inline-block;
-  height: 200px;
-  margin-right: 50px;
-  margin-left: 50px;
+  position:relative;
+}
+
+.parrafo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #3d3d29;
+  top: 150px;
   text-align: center;
-  width: 250px;
+  margin-top: 270px;
+}
+
+
+#primero {
+  background-image: url(../assets/images/work-1.jpg);
+  background-size: cover;
+
+
+}
+#segundo {
+  background-image: url(../assets/images/work-2.jpg);
+  background-size: cover;
+
+}
+#tercero {
+  background-image: url(../assets/images/work-3.jpg);
+  background-size: cover;
+
+}
+#cuarto {
+  background-image: url(../assets/images/work-4.jpg);
+  background-size: cover;
+}
+#quinto {
+  background-image: url(../assets/images/work-5.jpg);
+  background-size: cover;
+}
+#sexto {
+  background-image: url(../assets/images/work-6.jpg);
+  background-size: cover;
+
+}
+#septimo {
+  background-image: url(../assets/images/work-7.jpg);
+  background-size: cover;
+}
+#octavo {
+  background-image: url(../assets/images/work-8.jpg);
+  background-size: cover;
+}
+#noveno {
+  background-image: url(../assets/images/work-9.jpg);
+  background-size: cover;
 }
